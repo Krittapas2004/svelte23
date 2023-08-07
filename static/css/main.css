@@ -1,0 +1,39 @@
+h2{
+    color: slategray;
+}
+
+#Logo{
+    width: 10vw;
+}
+
+nav{
+    border-top: solid;
+    border-left: solid;
+    border-bottom: solid;
+    border-right: solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+nav ul{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+}
+
+html{
+    font-family: Courier New, monospace;
+}
