@@ -1,17 +1,13 @@
 
+<div class="mainIndexContainer">
+    <img id="CatLogo" src="catimg1.png" alt="Cat logo" width="1000">
+    <div class="mainIndexBox">
+        
+    </div>
+</div>
 
-<body>
-    <h2>Cat</h2>
-        <ul>
-            <li></li>
-           
-            <li></li>
-
-            <li></li>
-        </ul>
-    
-</body>
-
+<div class="mainIndexText">
+</div>
 <slot/>
 
 
