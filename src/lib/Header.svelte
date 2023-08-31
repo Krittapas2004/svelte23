@@ -8,8 +8,9 @@
         
     </ul>
     <div class="container">
-        <form action="https://www.google.com/" class="SearchBar">
+        <form action="https://www.google.com/" class="searchbar">
             <input type="text" placeholder="Search">
+            <!-- svelte-ignore a11y-missing-attribute -->
             <button type="submit"><img src="img/searchBar.png"></button>
         </form>
     </div>

@@ -42,7 +42,7 @@ nav ul{
 }
 
 nav li{
-    display: inline;
+    display: inline;    
 }
 
 nav a{
@@ -64,7 +64,7 @@ nav a{
     justify-content: center;
 }
 
-.SearchBar{
+.searchbar{
     background: rgb(255, 213, 135);
     display: flex;
     align-items: center;
@@ -74,7 +74,7 @@ nav a{
     width: 100%;
 }
 
-.SearchBar input{
+.searchbar input{
     background: transparent;
     flex: 1;
     border: none;
@@ -90,17 +90,31 @@ nav a{
     color: black;
 }
 
-.SearchBar button img{
+.searchbar button img{
     width: 40px;
 }
 
-.SearchBar button{
+.searchbar button{
     border: 0;
     border-radius: 50%;
     height: 100%;
     background-color: rgb(255, 213, 135);
     cursor: pointer;
     padding: 0;
+}
+
+.form-container{
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form#login{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 10px;
 }
 
 
