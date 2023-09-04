@@ -2,18 +2,20 @@
     <title>Login Form</title>
 </svelte:head>
 
+
+
     
     <div class="form-container">
         <h2>Login Page</h2>
         <div class="login">
-            <form id="login" method="get" action="login.php">
+            <form id="login" method="get">
                 <div class="form-group">
                     <label>Username</label>
-                    <input type="text" name="Uname" id="Uname" placeholder="Username">
+                    <input type="text" name="Uname" id="Uname" placeholder="Username"><i class="fa-solid fa-user"></i>
                 </div>
                 <div class="form-group">
                     <label>Password</label>
-                    <input type="Password" name="Pass" id="Pass" placeholder="Password">
+                    <input type="Password" name="Pass" id="Pass" placeholder="Password"><i class="fa-solid fa-lock"></i>
                 </div>
                 
                 <input type="button" name="log" id="log" value="Log In Here">
