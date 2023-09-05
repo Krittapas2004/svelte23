@@ -21,6 +21,10 @@ h2{
     background-repeat: no-repeat;
 }
 
+.notShowCat{
+    display: none;
+}
+
 #logo{
     height: 100px;
     width: 100px;

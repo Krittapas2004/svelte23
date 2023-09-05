@@ -1,10 +1,17 @@
+<script>
+    function showCat() {
+        let cat = document.querySelector(".mainIndexContainer");
+        cat.classList.remove("notShowCat");
+    }
+</script>
+
 <nav>
     <img id="logo" src="img/catlogo.png" alt="Cat Logo">
     <ul>
-        <li><a href="/">Home</a></li>    
-        <li><a href="catType">Cat Type</a></li>
-        <li><a href="location">Location</a></li>
-        <li><a href="store">Store</a></li>        
+        <li><a on:click={showCat} href="/">Home</a></li>    
+        <li><a on:click={showCat} href="catType">Cat Type</a></li>
+        <li><a on:click={showCat} href="location">Location</a></li>
+        <li><a on:click={showCat} href="store">Store</a></li>        
     </ul>
     <div class="container">
         <form action="https://www.google.com/search" method="get" class="searchbar">
@@ -20,6 +27,6 @@
     </div>
 </nav>
 
-<div class="mainIndexContainer">
+<div class="mainIndexContainer notShowCat">
     
 </div>  
