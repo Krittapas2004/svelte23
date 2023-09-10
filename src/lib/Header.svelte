@@ -10,7 +10,6 @@
     <ul>
         <li><a on:click={showCat} href="/">Home</a></li>    
         <li><a on:click={showCat} href="catType">Cat Type</a></li>
-        <li><a on:click={showCat} href="location">Location</a></li>
         <li><a on:click={showCat} href="store">Store</a></li>        
     </ul>
     <div class="container">
