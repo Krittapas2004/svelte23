@@ -3,14 +3,21 @@
         let cat = document.querySelector(".mainIndexContainer");
         cat.classList.remove("notShowCat");
     }
+    function hideCat() {
+        let cat = document.querySelector(".mainIndexContainer");
+        cat.classList.add("notShowCat");
+    }
 </script>
 
 <nav>
     <img id="logo" src="img/catlogo.png" alt="Cat Logo">
     <ul>
-        <li><a on:click={showCat} href="/">Home</a></li>    
-        <li><a on:click={showCat} href="catType">Cat Type</a></li>
-        <li><a on:click={showCat} href="store">Store</a></li>        
+        <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+        <li><a on:mouseover={showCat} on:mouseout={hideCat} href="/">Home</a></li>    
+        <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+        <li><a on:mouseover={showCat} on:mouseout={hideCat} href="catType">Cat Type</a></li>
+        <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+        <li><a on:mouseover={showCat} on:mouseout={hideCat} href="store">Store</a></li>        
     </ul>
     <div class="container">
         <form action="https://www.google.com/search" method="get" class="searchbar">

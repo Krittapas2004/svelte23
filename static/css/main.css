@@ -108,18 +108,35 @@ nav a{
     padding: 0;
 }
 
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.form-group > input{
+    height: 30px;
+    width: 100%;
+}
+
 .form-container{
-    width:100%;
+    width: 20%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    border: 1px solid black;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: rgb(247, 210, 198);
 }
 
 form#login{
     display: flex;
     flex-direction: column;
     width: 200px;
-    gap: 10px;
+    /* gap: 10px; */
     
 }
 
@@ -223,5 +240,9 @@ form#login{
 .previous-button:hover img, 
 .next-button:hover img{
     opacity: 1;
+}
+
+a:hover{
+    background-color: antiquewhite;
 }
 
