@@ -115,6 +115,11 @@ nav a{
     height: 80vh;
 }
 
+#check{
+    width: 15px;
+
+}
+
 .form-group > input{
     height: 30px;
     width: 100%;
@@ -136,14 +141,13 @@ form#login{
     display: flex;
     flex-direction: column;
     width: 200px;
-    /* gap: 10px; */
+    gap: 10px;
     
 }
 
 .product{
     position: relative;
     overflow: hidden;
-    padding: 20px;
 }
 
 .first-product{
@@ -161,10 +165,14 @@ form#login{
 }
 
 .product-container{
-    padding:0 10vm;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.whole-product{
+    width: 100%;
     display: flex;
-    overflow-x: auto;
-    scroll-behavior: smooth;
+    margin-left: 0;
 }
 
 .product-container::-webkit-scrollbar{
@@ -172,10 +180,6 @@ form#login{
 }
 
 .product-card{
-    flex: 0 0 auto;
-    width: 250px;
-    margin-right: 40px;
-    height: 450px;
 }
 
 .product-image{
@@ -210,23 +214,26 @@ form#login{
     font-size: 20px;
 }
 
+.gallery{
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    overflow: hidden;
+}
+
 .previous-button, .next-button{
     border: none;
     width: 50px;
     height: 100%;
-    position: absolute;
-    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(90deg, rgb(255, 255, 255, 0) 0% #fff 100%);
     cursor: pointer;
-    z-index: 9;
 }
 
 .previous-button{
     left: 0;
-    transform: rotate(180dg);
+    transform: rotate(180deg);
 }
 
 .next-button{

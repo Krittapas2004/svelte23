@@ -19,12 +19,12 @@
                 <input type="button" name="log" id="log" value="Log In">
                 
                 <div class="form-group">
-                    <input type="checkbox" id="check">
                     <span>Remember me</span>
+                    <input type="checkbox" id="check">
                 </div>
                 
                 <div class="form-group">
-                    Forgot <a href="">Password</a>
+                    Forgot <a href="/">Password</a>
                 </div>
             </form>
         </div>
