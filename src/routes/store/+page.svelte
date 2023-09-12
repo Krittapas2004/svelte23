@@ -60,7 +60,7 @@
                 </div>
             </div>
         </div>
-        <button class="next-button"><i class="fa-solid fa-arrow-right"></i></button> 
+        <button class="next-button"><i class="fa-solid fa-arrow-left"></i></button> 
     </div>
 </section>
 

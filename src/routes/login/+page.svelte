@@ -8,19 +8,19 @@
         <div class="login">
             <form id="login" method="get">
                 <div class="form-group">
-                    
-                    <input type="text" name="Uname" id="Uname" placeholder="Username"><i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="Uname" id="Uname" placeholder="Username">
                 </div>
                 <div class="form-group">
-                    
-                    <input type="Password" name="Pass" id="Pass" placeholder="Password"><i class="fa-solid fa-lock"></i>
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="Password" name="Pass" id="Pass" placeholder="Password">
                 </div>
                 
                 <input type="button" name="log" id="log" value="Log In">
                 
-                <div class="form-group">
-                    <span>Remember me</span>
+                <div class="rememberLogin">
                     <input type="checkbox" id="check">
+                    <span>Remember me</span>
                 </div>
                 
                 <div class="form-group">

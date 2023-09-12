@@ -8,7 +8,7 @@ body{
 }
 
 h2{
-    color: slategray;
+    color: black;
 }
 
 .mainIndexContainer{
@@ -19,10 +19,16 @@ h2{
     background-image: url(../img/catimg1.png);
     background-position: center;
     background-repeat: no-repeat;
+    transition: height 0.25s ease-in;
+}
+
+.fa-arrow-left{
+    rotate: 180deg;
 }
 
 .notShowCat{
-    display: none;
+    /* display: none; */
+    height: 0;
 }
 
 #logo{
@@ -112,7 +118,8 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 83.4vh;
+    background-image: url(../img/catBackground.png);
 }
 
 #check{
@@ -125,6 +132,11 @@ nav a{
     width: 100%;
 }
 
+.rememberLogin{
+    display: flex;
+    font-size: 1.1em;
+}
+
 .form-container{
     width: 20%;
     display: flex;
@@ -134,20 +146,22 @@ nav a{
     justify-content: center;
     padding: 50px;
     border-radius: 10px;
-    background-color: rgb(247, 210, 198);
+    color: black;
+    background-color: rgb(247, 210, 198, 0.2);
+
 }
 
-form#login{
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    gap: 10px;
-    
+.login>form>input{
+    padding: 10px;
+    width: 104%;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1px;
+    margin-bottom: 10px;
 }
 
-.product{
-    position: relative;
-    overflow: hidden;
+.login>form>input:hover{
+    cursor: pointer; 
 }
 
 .first-product{
