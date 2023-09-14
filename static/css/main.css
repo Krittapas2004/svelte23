@@ -1,17 +1,20 @@
-html{
+html {
     font-family: Courier New, monospace;
 }
 
-body{
+/* Reset default margin and padding for the body */
+body {
     margin: 0;
     padding: 0;
 }
 
-h2{
+/* Style for h2 elements */
+h2 {
     color: black;
 }
 
-.mainIndexContainer{
+/* Main container styles */
+.mainIndexContainer {
     width: 100%;
     height: 300px;
     background-color: rgb(247, 210, 198);
@@ -22,21 +25,25 @@ h2{
     transition: height 0.25s ease-in;
 }
 
-.fa-arrow-left{
+/* Rotate font-awesome arrow left icon */
+.fa-arrow-left {
     rotate: 180deg;
 }
 
-.notShowCat{
+/* Hide the element with class 'notShowCat' */
+.notShowCat {
     /* display: none; */
     height: 0;
 }
 
-#logo{
+/* Logo styles */
+#logo {
     height: 100px;
     width: 100px;
 }
 
-nav{
+/* Navigation styles */
+nav {
     background-color: rgb(247, 210, 198);
     align-items: center;
     justify-content: space-around;
@@ -44,38 +51,40 @@ nav{
     padding: 30px;
 }
 
-nav ul{
+nav ul {
     text-decoration: none;
     list-style: none;
     text-align: center;
     display: flex;
 }
 
-nav li{
-    display: inline;    
+nav li {
+    display: inline;
 }
 
-nav a{
+nav a {
     padding: 0.5em 1.5em;
     text-decoration: none;
     font-size: x-large;
     color: black;
-    
 }
 
-.titleIndex{
+/* Title styles */
+.titleIndex {
     font-size: x-large;
     margin-bottom: 50px;
     padding-left: 100px;
 }
 
-.container{
+/* Container styles */
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.searchbar{
+/* Search bar styles */
+.searchbar {
     background: rgb(237, 211, 211);
     display: flex;
     align-items: center;
@@ -85,27 +94,27 @@ nav a{
     width: 100%;
 }
 
-.searchbar input{
+.searchbar input {
     background: transparent;
     flex: 1;
     border: none;
     outline: none;
     font-size: 15px;
     color: black;
-    padding: 20px; 
+    padding: 20px;
     font-style: oblique;
     width: 100%;
 }
 
-::placeholder{
+::placeholder {
     color: black;
 }
 
-.searchbar button img{
+.searchbar button img {
     width: 40px;
 }
 
-.searchbar button{
+.searchbar button {
     border: 0;
     border-radius: 50%;
     height: 100%;
@@ -114,7 +123,8 @@ nav a{
     padding: 0;
 }
 
-.login-form{
+/* Login form styles */
+.login-form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,22 +132,21 @@ nav a{
     background-image: url(../img/catBackground.png);
 }
 
-#check{
+#check {
     width: 15px;
-
 }
 
-.form-group > input{
+.form-group > input {
     height: 30px;
     width: 100%;
 }
 
-.rememberLogin{
+.rememberLogin {
     display: flex;
     font-size: 1.1em;
 }
 
-.form-container{
+.form-container {
     width: 20%;
     display: flex;
     align-items: center;
@@ -148,10 +157,9 @@ nav a{
     border-radius: 10px;
     color: black;
     background-color: rgb(247, 210, 198, 0.2);
-
 }
 
-.login>form>input{
+.login>form>input {
     padding: 10px;
     width: 104%;
     margin-top: 10px;
@@ -160,60 +168,61 @@ nav a{
     margin-bottom: 10px;
 }
 
-.login>form>input:hover{
-    cursor: pointer; 
+.login>form>input:hover {
+    cursor: pointer;
 }
 
-.first-product{
+/* Product styles */
+.first-product {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.product-category{
-    padding:0 10vm;
+.product-category {
+    padding: 0 10px;
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 40px;
     text-transform: capitalize;
 }
 
-.product-container{
+.product-container {
     overflow-x: scroll;
     overflow-y: hidden;
 }
 
-.whole-product{
+.whole-product {
     width: 100%;
     display: flex;
     margin-left: 0;
 }
 
-.product-container::-webkit-scrollbar{
+.product-container::-webkit-scrollbar {
     display: none;
 }
 
-.product-card{
+.product-card {
 }
 
-.product-image{
+.product-image {
     position: relative;
     width: 500px;
     height: 550px;
     overflow: hidden;
 }
 
-.product-info{
+.product-info {
     width: 100%;
     height: 100%;
     padding-top: 10px;
 }
 
-.product-brand{
+.product-brand {
     text-transform: uppercase;
 }
 
-.product-description{
+.product-description {
     width: 100%;
     height: 20px;
     line-height: 20px;
@@ -223,18 +232,19 @@ nav a{
     margin: 5px 0;
 }
 
-.product-price{
+.product-price {
     font-weight: 900;
     font-size: 20px;
 }
 
-.gallery{
+/* Gallery styles */
+.gallery {
     display: grid;
     grid-template-columns: 50px 1fr 50px;
     overflow: hidden;
 }
 
-.previous-button, .next-button{
+.previous-button, .next-button {
     border: none;
     width: 50px;
     height: 100%;
@@ -245,25 +255,25 @@ nav a{
     cursor: pointer;
 }
 
-.previous-button{
+.previous-button {
     left: 0;
     transform: rotate(180deg);
 }
 
-.next-button{
+.next-button {
     right: 0;
 }
 
-.previous-button img, .next-button img{
+.previous-button img, .next-button img {
     opacity: 0.2;
 }
 
-.previous-button:hover img, 
-.next-button:hover img{
+.previous-button:hover img,
+.next-button:hover img {
     opacity: 1;
 }
 
-a:hover{
+/* Hover style for anchor tags */
+a:hover {
     background-color: antiquewhite;
 }
-
