@@ -202,9 +202,6 @@ nav a {
     display: none;
 }
 
-.product-card {
-}
-
 .product-image {
     position: relative;
     width: 500px;
@@ -276,4 +273,10 @@ nav a {
 /* Hover style for anchor tags */
 a:hover {
     background-color: antiquewhite;
+}
+
+.sliding-text{
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
 }
