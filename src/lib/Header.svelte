@@ -35,8 +35,3 @@
 
 <div class="mainIndexContainer notShowCat">
 </div>  
-
-<div class="sliding-text">
-    <span>What We</span>
-    <span>Provide</span>
-</div>
