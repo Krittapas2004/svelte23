@@ -326,6 +326,12 @@ a:hover {
     margin:auto;
 }
 
+.aboutUs-img img{
+    width:100%;
+    height: auto;
+    border-radius: 10px;
+}
+
 
 
 
