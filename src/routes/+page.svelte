@@ -22,6 +22,7 @@
                 behavior, and more. With a paw-sitive approach, we aim to assist
                 cat owners in giving their furry friends the best possible
                 lives. Join us in celebrating the wonderful world of cats!
+                <br>
                 <button class="aboutUs-button">Learn more</button>
             </p>
         </div>
