@@ -15,7 +15,7 @@
         <!-- svelte-ignore a11y-mouse-events-have-key-events -->
         <li><a on:mouseover={showCat} on:mouseout={hideCat} href="/">Home</a></li>    
         <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-        <li><a on:mouseover={showCat} on:mouseout={hideCat} href="catType">Cat Type</a></li>
+        <li><a on:mouseover={showCat} on:mouseout={hideCat} href="catType">Our Cat</a></li>
         <!-- svelte-ignore a11y-mouse-events-have-key-events -->
         <li><a on:mouseover={showCat} on:mouseout={hideCat} href="store">Store</a></li>        
     </ul>
