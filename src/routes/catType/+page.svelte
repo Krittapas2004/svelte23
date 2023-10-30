@@ -5,9 +5,7 @@
 <div class="catCardContainer">
     <div class="slide-catCardContainer">
         <div class="card-wrapper">
-            <div class="card">
-                
-            </div>
+            <div class="card" />
         </div>
     </div>
 </div>

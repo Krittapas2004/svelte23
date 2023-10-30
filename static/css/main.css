@@ -409,4 +409,18 @@ a:hover {
 .Our-Cat {
     text-align: center;
     position: relative;
+    font-size: 25px;
 }
+
+.Our-Cat::after {
+    content: "";
+    display: block;
+    width: 200px; 
+    height: 2px; 
+    background-color: black; 
+    position: absolute;
+    bottom: -10px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+

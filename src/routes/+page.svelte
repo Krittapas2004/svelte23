@@ -1,7 +1,7 @@
 <div class="background">
     <div class="video">
         <video autoplay loop muted>
-            <source src="video/catVid.mp4" type="video/mp4" />
+            <source src=".mp4" type="video/mp4" />
             Your browser does not support the video tag.
         </video>
     </div>
