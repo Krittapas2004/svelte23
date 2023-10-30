@@ -85,7 +85,7 @@ nav a {
 
 /* Search bar styles */
 .searchbar {
-    background:white;
+    background: white;
     display: flex;
     align-items: center;
     border-radius: 100px;
@@ -136,7 +136,7 @@ nav a {
     width: 15px;
 }
 
-.form-group > input {
+.form-group>input {
     height: 30px;
     width: 100%;
 }
@@ -241,7 +241,8 @@ nav a {
     overflow: hidden;
 }
 
-.previous-button, .next-button {
+.previous-button,
+.next-button {
     border: none;
     width: 50px;
     height: 100%;
@@ -261,7 +262,8 @@ nav a {
     right: 0;
 }
 
-.previous-button img, .next-button img {
+.previous-button img,
+.next-button img {
     opacity: 0.2;
 }
 
@@ -275,7 +277,8 @@ a:hover {
     background-color: rgb(255, 255, 195);
 }
 
-.sliding-text{
+/* This CSS style is for the sliding text container */
+.sliding-text {
     margin-top: 100px;
     display: flex;
     align-items: center;
@@ -287,25 +290,29 @@ a:hover {
     position: relative;
     height: 50vh;
 }
- 
-.sliding-text span:first-child{
-    transform: skew(0deg,-30deg) scaleY(1.33333);
-}
- 
-.sliding-text span:nth-child(2){
-    transform: skew(60deg,-30deg) scaleY(.66667) translate(60px, -10px);
+
+/* Styling for the first span element inside .sliding-text */
+.sliding-text span:first-child {
+    transform: skew(0deg, -30deg) scaleY(1.33333);
 }
 
-.background{
+/* Styling for the second span element inside .sliding-text */
+.sliding-text span:nth-child(2) {
+    transform: skew(60deg, -30deg) scaleY(.66667) translate(60px, -10px);
+}
+
+.background {
     background-color: #FFB17F;
 }
 
-.video video{
+/* Styles for the video element within .background */
+.video video {
     padding-top: 15px;
     border-radius: 200px;
     align-items: center;
 }
 
+/* Styles for the main content container */
 .container1 {
     display: flex;
     justify-content: center;
@@ -314,40 +321,46 @@ a:hover {
     margin: 65px auto;
 }
 
-.insideContainer1{
-     flex: 1;
-     width: 600px;
-     margin: 0 25px;
-     animation: fadeInUp 2s ease;
-}
-
-.aboutUs-img{
+/* Styles for the content inside the main container */
+.insideContainer1 {
     flex: 1;
     width: 600px;
-    margin:auto;
+    margin: 0 25px;
+    animation: fadeInUp 2s ease;
+}
+
+/* Styles for the image container within the main container */
+.aboutUs-img {
+    flex: 1;
+    width: 600px;
+    margin: auto;
     animation: fadeInRight 2s ease;
 }
 
-.aboutUs-img img{
-    width:100%;
+/* Styles for the image within .aboutUs-img */
+.aboutUs-img img {
+    width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
-.insideContainer1 h2{
+/* Styles for the heading within .insideContainer1 */
+.insideContainer1 h2 {
     font-size: 27px;
     margin-bottom: 20px;
     color: black;
 }
 
-.insideContainer1 p{
+/* Styles for the paragraphs within .insideContainer1 */
+.insideContainer1 p {
     font-size: 15px;
     line-height: 1.7;
     margin-bottom: 40px;
     color: black;
 }
 
-.insideContainer1 button{
+/* Styles for the button within .insideContainer1 */
+.insideContainer1 button {
     display: inline-block;
     background-color: white;
     color: black;
@@ -356,36 +369,39 @@ a:hover {
     font-size: 15px;
     border: none;
     cursor: pointer;
-    transition: 0.3 ease;
+    transition: 0.3s ease;
+    /* Added 's' to '0.3' to fix transition */
     margin-top: 10px;
 }
 
-.insideContainer1 button:hover{
+/* Styles for the button on hover */
+.insideContainer1 button:hover {
     transform: scale(1.1);
-    background-color:#F76A54;
+    background-color: #F76A54;
 }
 
-@keyframes fadeInUp{
-    0%{
+/* Keyframes animation for fading in from below */
+@keyframes fadeInUp {
+    0% {
         opacity: 0;
         transform: translateY(50px);
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateY(0);
     }
 }
 
-@keyframes fadeInRight{
-    0%{
+/* Keyframes animation for fading in from the right */
+@keyframes fadeInRight {
+    0% {
         opacity: 0;
         transform: translateY(-50px);
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateY(0);
     }
 }
-
-
-
