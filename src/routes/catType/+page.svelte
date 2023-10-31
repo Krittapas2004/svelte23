@@ -30,10 +30,6 @@ onMount(async () => {
 <img src={image.urls.regular} alt="Cat" />
 {/each}
 
-<div class="Our-Cat">
-  <h1>Our Cat</h1>
-</div>
-
 <div class="catCardContainer">
   <div class="slide-catCardContainer">
     <div class="card-wrapper">
