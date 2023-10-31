@@ -424,3 +424,11 @@ a:hover {
     transform: translateX(-50%);
 }
 
+.card .image-box{
+    height: 200px;
+}
+
+.card .image-box img{
+    height: 100%;
+}
+
