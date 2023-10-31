@@ -2,24 +2,32 @@
 <script>
   import { onMount } from "svelte";
 
-  let img = [];
-  const BASE_URL = `https://api.unsplash.com`;
-  const API_KEY = "J8xlJ50rIrCU5MARTJ_59uX-eW75wA5TfHSnJf0ZfVU";
+let images = [];
+const BASE_URL = "https://api.unsplash.com/search/photos";
+const API_KEY = "J8xlJ50rIrCU5MARTJ_59uX-eW75wA5TfHSnJf0ZfVU";
+const query = "cats";
 
-  onMount(() => {
-    fetch(
-      `${BASE_URL}/search/photos?query=cats&client_id=${API_KEY}`
-    )
-      .then((res) => res.json())
-      .then((data) => {
-        imgs.push(data.results)
-      });
-  });
-  
+onMount(async () => {
+  try {
+    const response = await fetch(`${BASE_URL}?query=${query}&client_id=${API_KEY}`);
+    if (response.ok) {
+      const data = await response.json();
+      images = data.results;
+    } else {
+      console.error("Error fetching data:", response.statusText);
+    }
+  } catch (error) {
+    console.error("Error fetching data:", error);
+  }
+});
 </script>
 
-{#each imgs as img}
-    <img src = {img.urls.regular}/>
+<div class="Our-Cat">
+<h1>Our Cat</h1>
+</div>
+
+{#each images as image}
+<img src={image.urls.regular} alt="Cat" />
 {/each}
 
 <div class="Our-Cat">
