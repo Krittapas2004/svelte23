@@ -28,20 +28,10 @@
 </div>
 
 <div class="catCard-Body">
-  <div class="catCardContainer">
-    <div class="slide-catCardContainer">
-      <div class="card-wrapper">
-        <div class="card">
-          <div class="image-box">
-            {#each allData as image}
-            <div class="catDetail">
-              <img src={image.urls.regular} alt="Cat" />
-              <p>{image.alt_description}</p>
-            </div>
-            {/each}
-          </div>
-        </div>
+    {#each allData as image}
+      <div class="catDetail">
+        <img src={image.urls.regular} alt="Cat" />
+        <p>{image.alt_description}</p>
       </div>
-    </div>
-  </div>
+    {/each}
 </div>
