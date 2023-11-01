@@ -428,7 +428,16 @@ a:hover {
     height: 200px;
 }
 
-.card .image-box img{
-    height: 100%;
+.image-box img{
+    height: 200px;
+    width: 200px;
+    padding-left: 10px;
+    object-fit: cover;
+}
+
+.catCard-Body{
+    min-height: 100vh;
+    display: flex;
+    background: white;
 }
 

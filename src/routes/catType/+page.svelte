@@ -1,7 +1,7 @@
 <script>
   import { onMount } from "svelte";
 
-  let images = [];
+  let allData = [];
   const BASE_URL = "https://api.unsplash.com/search/photos";
   const API_KEY = "J8xlJ50rIrCU5MARTJ_59uX-eW75wA5TfHSnJf0ZfVU";
   const query = "cats";
@@ -13,7 +13,7 @@
       );
       if (response.ok) {
         const data = await response.json();
-        images = data.results;
+        allData = data.results;
       } else {
         console.error("Error fetching data:", response.statusText);
       }
@@ -27,14 +27,18 @@
   <h1>Our Cat</h1>
 </div>
 
-<div class="catCardContainer">
-  <div class="slide-catCardContainer">
-    <div class="card-wrapper">
-      <div class="card" />
-      <div class="image-box">
-        {#each images as image}
-          <img src={image.urls.regular} alt="Cat" />
-        {/each}
+<div class="catCard-Body">
+  <div class="catCardContainer">
+    <div class="slide-catCardContainer">
+      <div class="card-wrapper">
+        <div class="card">
+          <div class="image-box">
+            {#each allData as image}
+              <img src={image.urls.regular} alt="Cat" />
+              <p>{image.alt_description}</p>
+            {/each}
+          </div>
+        </div>
       </div>
     </div>
   </div>
