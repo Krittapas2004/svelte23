@@ -34,8 +34,10 @@
         <div class="card">
           <div class="image-box">
             {#each allData as image}
+            <div class="catDetail">
               <img src={image.urls.regular} alt="Cat" />
               <p>{image.alt_description}</p>
+            </div>
             {/each}
           </div>
         </div>
