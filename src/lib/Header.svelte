@@ -21,7 +21,7 @@
     </ul>
     <div class="container">
         <form action="https://www.google.com/search" method="get" class="searchbar">
-            <input type="text" name="q" placeholder="search">
+            <input type="text" name="q" placeholder="Search" style="color:black">
             <!-- svelte-ignore a11y-missing-attribute -->
             <button type="submit"><img src="img/searchBar.png"></button>
         </form>

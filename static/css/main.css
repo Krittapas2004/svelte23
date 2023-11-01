@@ -60,6 +60,7 @@ nav ul {
 
 nav li {
     display: inline;
+
 }
 
 nav a {
@@ -67,6 +68,7 @@ nav a {
     text-decoration: none;
     font-size: x-large;
     color: black;
+    border-radius: 10px;
 }
 
 /* Title styles */
@@ -76,7 +78,7 @@ nav a {
     padding-left: 100px;
 }
 
-/* Container styles */
+/*  styles */
 .container {
     display: flex;
     align-items: center;
@@ -107,7 +109,7 @@ nav a {
 }
 
 ::placeholder {
-    color: black;
+    color: grey;
 }
 
 .searchbar button img {
@@ -275,6 +277,7 @@ nav a {
 /* Hover style for anchor tags */
 a:hover {
     background-color: rgb(255, 255, 195);
+    transition: 1.5s;
 }
 
 /* This CSS style is for the sliding text container */
