@@ -28,10 +28,12 @@
 </div>
 
 <div class="catCard-Body">
-    {#each allData as image}
-      <div class="catDetail">
+  {#each allData as image}
+    <div class="catDetail">
+      <div class="gridDisplay">
         <img src={image.urls.regular} alt="Cat" />
         <p>{image.alt_description}</p>
       </div>
-    {/each}
+    </div>
+  {/each}
 </div>

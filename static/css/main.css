@@ -433,8 +433,8 @@ a:hover {
 
 .catDetail img {
     transition: 1s ease;
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 550px;
     object-fit: cover;
     border: 2px solid black;
     border-radius: 10px;
@@ -449,6 +449,10 @@ a:hover {
 
 .catDetail{
     background-color: #FFB17F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
 }
 
 .catCard-Body {
@@ -457,5 +461,11 @@ a:hover {
     grid-template-columns: auto auto ;
 }
 
+.gridDisplay p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
 
 
