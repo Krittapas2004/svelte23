@@ -8,6 +8,16 @@ body {
     padding: 0;
 }
 
+footer{
+    background-color: #F76A54;
+    padding: 20px 0;
+    text-align: center;
+}
+.container{
+    max: width 1200px;
+    text-align:center;
+}
+
 /* Style for h2 elements */
 h2 {
     color: black;
