@@ -141,7 +141,6 @@ nav a {
     justify-content: center;
     align-items: center;
     height: 83.4vh;
-    background-image: url(../img/catBackground.png);
 }
 
 #check {
@@ -331,7 +330,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     width: 90%;
-    margin: 65px auto;
+  
 }
 
 /* Styles for the content inside the main container */
@@ -424,18 +423,10 @@ a:hover {
     position: relative;
     font-size: 25px;
     background-color: #FFB17F;
-}
-
-.Our-Cat::after {
-    content: "";
-    display: block;
-    width: 200px;
-    height: 2px;
-    background-color: black;
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
+    margin: 0;
+    padding: 10px;
+    text-decoration: underline;
+    text-underline-offset: 15px;
 }
 
 /* Styles for the "catCard-Body" section */
