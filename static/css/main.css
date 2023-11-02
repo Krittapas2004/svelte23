@@ -474,4 +474,16 @@ a:hover {
     font-size: 15px;
 }
 
+.allSocialMedia{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.facebook-cats, 
+.ig-cats, 
+.twitter-cats{
+    padding: 10px;
+}
+
 
