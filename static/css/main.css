@@ -9,7 +9,7 @@ body {
 }
 
 footer{
-    background-color: #F76A54;
+    background-color: #F78154;
     padding: 20px 0;
     text-align: center;
 }
@@ -383,7 +383,6 @@ a:hover {
     border: none;
     cursor: pointer;
     transition: 0.3s ease;
-    /* Added 's' to '0.3' to fix transition */
     margin-top: 10px;
 }
 
@@ -419,6 +418,7 @@ a:hover {
     }
 }
 
+/* Styles for the "Our-Cat" section */
 .Our-Cat {
     text-align: center;
     position: relative;
@@ -438,6 +438,7 @@ a:hover {
     transform: translateX(-50%);
 }
 
+/* Styles for the "catCard-Body" section */
 .catCard-Body{
     display: grid;
     grid-column-start: 1;
@@ -460,6 +461,7 @@ a:hover {
     transition: 1s ease;
 }
 
+/* Styles for the "catDetail" section */
 .catDetail{
     background-color: #FFB17F;
     display: flex;
