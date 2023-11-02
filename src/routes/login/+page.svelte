@@ -6,7 +6,7 @@
     <div class="form-container">
         <h2>Login Page</h2>
         <div class="login">
-            <form id="login" method="get">
+            <form class="loginBar" method="get">
                 <div class="form-group">
                     <i class="fa-solid fa-user"></i>
                     <input type="text" name="Uname" id="Uname" placeholder="Username">

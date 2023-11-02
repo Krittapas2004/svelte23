@@ -296,11 +296,11 @@ a:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-size: 100px;
+    font-size: 80px;
     text-transform: uppercase;
     overflow: hidden;
     position: relative;
-    height: 50vh;
+    height: 30vh;
 }
 
 /* Styling for the first span element inside .sliding-text */
@@ -441,8 +441,8 @@ a:hover {
     height: 500px;
     width: 550px;
     object-fit: cover;
-    border: 2px solid black;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .catDetail img:hover {
