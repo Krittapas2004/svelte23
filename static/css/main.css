@@ -318,11 +318,16 @@ a:hover {
 }
 
 /* Styles for the video element within .background */
-.video video {
-    padding-top: 15px;
-    border-radius: 200px;
+.video-container {
+    display: flex;
+    justify-content: center;
     align-items: center;
-}
+    height: 100vh;
+  }
+
+  .video-iframe {
+    border-radius: 200px;
+  }
 
 /* Styles for the main content container */
 .container1 {
