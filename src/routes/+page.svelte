@@ -1,15 +1,9 @@
 <div class="background">
   <div class="video-container">
-    <iframe
-      class="video-iframe"
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/iKAewWqera8?si=zJIWPvZBUAc5QXW9"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-    />
+    <video width="100%" height="900" autoplay loop muted>
+      <source src="video/backgroundvid.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
   </div>
 
   <div class="sliding-text">
