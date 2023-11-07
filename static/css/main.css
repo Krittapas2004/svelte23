@@ -196,6 +196,8 @@ nav a {
     font-weight: 500;
     margin-bottom: 40px;
     text-transform: capitalize;
+    background-color: #FFB17F;
+    text-decoration: underline;
 }
 
 .product-container {
