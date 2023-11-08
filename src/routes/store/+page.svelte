@@ -1,3 +1,6 @@
+<!-- This code represents a product section with a product category heading and a gallery of product cards. 
+  Each card includes an image, product details, and price. 
+  Navigation buttons allow users to browse through the product gallery. -->
 <section class="product">
   <h2 class="product-category">Our Product</h2>
   <div class="gallery">
