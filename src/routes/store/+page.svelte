@@ -1,7 +1,7 @@
 <section class="product">
   <h2 class="product-category">Our Product</h2>
   <div class="gallery">
-    <button on:click={} class="previous-button"><i class="fa-solid fa-arrow-left" /></button
+    <button class="previous-button"><i class="fa-solid fa-arrow-left" /></button
     >
     <div class="product-container">
       <div class="whole-product">
@@ -71,6 +71,6 @@
         </div>
       </div>
     </div>
-    <button on:click={} class="next-button"><i class="fa-solid fa-arrow-left" /></button>
+    <button class="next-button"><i class="fa-solid fa-arrow-left" /></button>
   </div>
 </section>
