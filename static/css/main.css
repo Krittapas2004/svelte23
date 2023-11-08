@@ -1,29 +1,26 @@
 html {
     font-family: Courier New, monospace;
 }
-
-/* Reset default margin and padding for the body */
+ 
 body {
     margin: 0;
     padding: 0;
 }
-
+ 
 footer{
     background-color: #F78154;
     padding: 20px 0;
     text-align: center;
-
+ 
 }
 .container{
     text-align:center;
 }
-
-/* Style for h2 elements */
+ 
 h2 {
     color: black;
 }
-
-/* Main container styles */
+ 
 .mainIndexContainer {
     width: 100%;
     height: 300px;
@@ -34,25 +31,21 @@ h2 {
     background-repeat: no-repeat;
     transition: height 0.25s ease-in;
 }
-
-/* Rotate font-awesome arrow left icon */
+ 
 .fa-arrow-left {
     rotate: 180deg;
 }
-
-/* Hide the element with class 'notShowCat' */
+ 
+ 
 .notShowCat {
-    /* display: none; */
     height: 0;
 }
-
-/* Logo styles */
+ 
 #logo {
     height: 100px;
     width: 100px;
 }
-
-/* Navigation styles */
+ 
 nav {
     background-color: #F78154;
     align-items: center;
@@ -60,19 +53,19 @@ nav {
     display: flex;
     padding: 30px;
 }
-
+ 
 nav ul {
     text-decoration: none;
     list-style: none;
     text-align: center;
     display: flex;
 }
-
+ 
 nav li {
     display: inline;
-
+ 
 }
-
+ 
 nav a {
     padding: 0.5em 1.5em;
     text-decoration: none;
@@ -80,22 +73,20 @@ nav a {
     color: black;
     border-radius: 10px;
 }
-
+ 
 /* Title styles */
 .titleIndex {
     font-size: x-large;
     margin-bottom: 50px;
     padding-left: 100px;
 }
-
-/*  styles */
+ 
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-/* Search bar styles */
+ 
 .searchbar {
     background: white;
     display: flex;
@@ -105,7 +96,7 @@ nav a {
     height: 40px;
     width: 100%;
 }
-
+ 
 .searchbar input {
     background: transparent;
     flex: 1;
@@ -117,15 +108,15 @@ nav a {
     font-style: oblique;
     width: 100%;
 }
-
+ 
 ::placeholder {
     color: grey;
 }
-
+ 
 .searchbar button img {
     width: 40px;
 }
-
+ 
 .searchbar button {
     border: 0;
     border-radius: 50%;
@@ -134,29 +125,28 @@ nav a {
     cursor: pointer;
     padding: 0;
 }
-
-/* Login form styles */
+ 
 .login-form {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 83.4vh;
 }
-
+ 
 #check {
     width: 15px;
 }
-
+ 
 .form-group>input {
     height: 30px;
     width: 100%;
 }
-
+ 
 .rememberLogin {
     display: flex;
     font-size: 1.1em;
 }
-
+ 
 .form-container {
     width: 20%;
     display: flex;
@@ -169,7 +159,7 @@ nav a {
     color: black;
     background-color: rgb(247, 210, 198, 0.2);
 }
-
+ 
 .login>form>input {
     padding: 10px;
     width: 104%;
@@ -178,18 +168,18 @@ nav a {
     border: 1px;
     margin-bottom: 10px;
 }
-
+ 
+/* Change the cursor to a pointer on hover for input elements within the login form */
 .login>form>input:hover {
     cursor: pointer;
 }
-
-/* Product styles */
+ 
 .first-product {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
+ 
 .product-category {
     font-size: 3vw;
     font-weight: bold;
@@ -201,41 +191,41 @@ nav a {
     margin-bottom: 10px;
     text-align: center;
     text-underline-offset: 15px;
-
+ 
 }
-
+ 
 .product-container {
     overflow-x: scroll;
     overflow-y: hidden;
 }
-
+ 
 .whole-product {
     width: 100%;
     display: flex;
     margin-left: 0;
 }
-
+ 
 .product-container::-webkit-scrollbar {
     display: none;
 }
-
+ 
 .product-image {
     position: relative;
     width: 500px;
     height: 550px;
     overflow: hidden;
 }
-
+ 
 .product-info {
     width: 100%;
     height: 100%;
     padding-top: 10px;
 }
-
+ 
 .product-brand {
     text-transform: uppercase;
 }
-
+ 
 .product-description {
     width: 100%;
     height: 20px;
@@ -245,19 +235,19 @@ nav a {
     text-transform: capitalize;
     margin: 5px 0;
 }
-
+ 
 .product-price {
     font-weight: 900;
     font-size: 20px;
 }
-
+ 
 /* Gallery styles */
 .gallery {
     display: grid;
     grid-template-columns: 50px 1fr 50px;
     overflow: hidden;
 }
-
+ 
 .previous-button,
 .next-button {
     border: none;
@@ -269,33 +259,33 @@ nav a {
     background: linear-gradient(90deg, rgb(255, 255, 255, 0) 0% #fff 100%);
     cursor: pointer;
 }
-
+ 
 .previous-button {
     left: 0;
     transform: rotate(180deg);
 }
-
+ 
 .next-button {
     right: 0;
 }
-
+ 
 .previous-button img,
 .next-button img {
     opacity: 0.2;
 }
-
+ 
+/* Increase the opacity of the images within the previous and next buttons on hover */
 .previous-button:hover img,
 .next-button:hover img {
     opacity: 1;
 }
-
-/* Hover style for anchor tags */
+ 
+/* Apply a background color change on hover to links within list items in the header */
 .header-button > li > a:hover {
     background-color: rgb(255, 255, 195);
     transition: 1.5s;
 }
-
-/* This CSS style is for the sliding text container */
+ 
 .sliding-text {
     padding-top: 100px;
     display: flex;
@@ -308,34 +298,31 @@ nav a {
     position: relative;
     height: 30vh;
 }
-
-/* Styling for the first span element inside .sliding-text */
+ 
+/* Styles for animating sliding text elements */
 .sliding-text span:first-child {
     transform: skew(0deg, -30deg) scaleY(1.33333);
 }
-
-/* Styling for the second span element inside .sliding-text */
+ 
 .sliding-text span:nth-child(2) {
-    transform: skew(60deg, -30deg) scaleY(.66667) translate(60px, -10px);
+    transform: skew(60deg, -30deg) scaleY(0.66667) translate(60px, -10px);
 }
-
+ 
 .background {
     background-color: #FFB17F;
 }
-
-/* Styles for the video element within .background */
+ 
 .video-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
   }
-
+ 
   .video-iframe {
     border-radius: 200px;
   }
-
-/* Styles for the main content container */
+ 
 .container1 {
     display: flex;
     justify-content: center;
@@ -343,52 +330,46 @@ nav a {
     width: 90%;
   
 }
-
+ 
 .display-flex-img {
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
 }
-
-/* Styles for the content inside the main container */
+ 
 .insideContainer1 {
     flex: 1;
     width: 600px;
     margin: 0 25px;
     animation: fadeInUp 2s ease;
 }
-
-/* Styles for the image container within the main container */
+ 
 .aboutUs-img {
     flex: 1;
     width: 600px;
     margin: auto;
     animation: fadeInRight 2s ease;
 }
-
-/* Styles for the image within .aboutUs-img */
+ 
 .aboutUs-img img {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
-
-/* Styles for the heading within .insideContainer1 */
+ 
 .insideContainer1 h2 {
     font-size: 27px;
     margin-bottom: 20px;
     color: black;
 }
-
-/* Styles for the paragraphs within .insideContainer1 */
+ 
 .insideContainer1 p {
     font-size: 15px;
     line-height: 1.7;
     margin-bottom: 40px;
     color: black;
 }
-
-/* Styles for the button within .insideContainer1 */
+ 
 .insideContainer1 button {
     display: inline-block;
     background-color: white;
@@ -401,40 +382,39 @@ nav a {
     transition: 0.3s ease;
     margin-top: 10px;
 }
-
+ 
 /* Styles for the button on hover */
 .insideContainer1 button:hover {
     transform: scale(1.1);
     background-color: #F76A54;
 }
-
+ 
 /* Keyframes animation for fading in from below */
 @keyframes fadeInUp {
     0% {
         opacity: 0;
         transform: translateY(50px);
     }
-
+ 
     100% {
         opacity: 1;
         transform: translateY(0);
     }
 }
-
+ 
 /* Keyframes animation for fading in from the right */
 @keyframes fadeInRight {
     0% {
         opacity: 0;
         transform: translateY(-50px);
     }
-
+ 
     100% {
         opacity: 1;
         transform: translateY(0);
     }
 }
-
-/* Styles for the "Our-Cat" section */
+ 
 .Our-Cat {
     text-align: center;
     position: relative;
@@ -445,14 +425,13 @@ nav a {
     text-decoration: underline;
     text-underline-offset: 15px;
 }
-
-/* Styles for the "catCard-Body" section */
+ 
 .catCard-Body{
     display: grid;
     grid-column-start: 1;
     grid-column-end: 3;
 }
-
+ 
 .catDetail img {
     transition: 1s ease;
     height: 500px;
@@ -461,21 +440,22 @@ nav a {
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
-
+ 
+/* Responsive design for screens with a maximum width of 550px */
 @media (max-width: 550px) {
-    .catDetail img{
+    .catDetail img {
         width: 100vw;
     }
 }
-
+ 
+/* Scale down the size of catDetail images on hover with a smooth transition effect */
 .catDetail img:hover {
-    -webkit-transform: scale(0.8);
+    -webkit-transform: scale(0.8); /* WebKit-based browsers (Safari and Chrome) */
     -ms-transform: scale(0.8);
-    transform: scale(0.8);
+    transform: scale(0.8); /* Standard CSS transform for other browsers */
     transition: 1s ease;
 }
-
-/* Styles for the "catDetail" section */
+ 
 .catDetail{
     background-color: #FFB17F;
     display: flex;
@@ -483,48 +463,47 @@ nav a {
     align-items: center;
     padding-top: 10px;
 }
-
+ 
 .catCard-Body {
     min-height: 100vh;
     display: grid;
     grid-template-columns: auto auto ;
 }
-
+ 
+/* Responsive design for screens with a maximum width of 1100px */
 @media (max-width: 1100px) {
   .catCard-Body{
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   }
 }
-
+ 
 .gridDisplay p{
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 15px;
 }
-
+ 
 .allSocialMedia{
     align-items: center;
     display: flex;
     justify-content: center;
 }
-
-.facebook-cats, 
-.ig-cats, 
+ 
+.facebook-cats,
+.ig-cats,
 .twitter-cats{
     padding: 10px;
 }
-
+ 
 .background-vid{
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 40px;
 }
-
+ 
 video{
     width: 80%;
     border-radius: 50px;
 }
-
-
