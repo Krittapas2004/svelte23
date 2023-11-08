@@ -1,5 +1,6 @@
 <div class="background">
   <div class="background-vid">
+    <!-- This video tag element will plays automatically and loops indefinitely while muting audio. -->
     <video autoplay loop muted>
       <source src="video/backgroundvid.mp4" type="video/mp4" />
       Your browser does not support the video tag.
