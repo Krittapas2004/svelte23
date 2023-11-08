@@ -1,3 +1,4 @@
+<!-- This is a footer for every page -->
 <footer>
   <div class="container">
     <p>&copy; 2023 Krit. All rigths reserved.</p>
