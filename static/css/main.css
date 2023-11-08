@@ -191,17 +191,17 @@ nav a {
 }
 
 .product-category {
-    padding: 0 10px;
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 40px;
+    font-size: 3vw;
+    font-weight: bold;
     text-transform: capitalize;
     background-color: #FFB17F;
     text-decoration: underline;
-    padding: 20px;
+    padding: 40px;
     margin: 0;
     margin-bottom: 10px;
     text-align: center;
+    text-underline-offset: 15px;
+
 }
 
 .product-container {
@@ -342,6 +342,12 @@ nav a {
     align-items: center;
     width: 90%;
   
+}
+
+.display-flex-img {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
 }
 
 /* Styles for the content inside the main container */
