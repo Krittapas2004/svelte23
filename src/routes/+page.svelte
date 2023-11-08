@@ -1,3 +1,4 @@
+<!-- Main Page -->
 <div class="background">
   <div class="background-vid">
     <!-- This video tag element will plays automatically and loops indefinitely while muting audio. -->
