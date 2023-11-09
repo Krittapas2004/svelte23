@@ -6,7 +6,6 @@
   function scrollRight() {
     imgIndex++;
     if (imgIndex >= 2) {
-      // Adjust this based on the number of videos
       imgIndex = 2;
     }
   }
@@ -15,6 +14,16 @@
     imgIndex--;
     if (imgIndex < 0) {
       imgIndex = 0;
+    }
+  }
+
+  function img(index) {
+    const imgArray = [product1, product2, product1, product2];
+  
+    if (index >= 0 && index < imgArray.length) {
+      return imgArray[index];
+    } else {
+      return ""; 
     }
   }
 </script>
