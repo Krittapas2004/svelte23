@@ -1,15 +1,19 @@
 <script>
   let product1 = "/img/catTeaser.png";
   let product2 = "/img/catToy.png";
+  let product3 = "/img/catToy2.png";
+  let product4 = "/img/catToy3.png";
   let imgIndex = 0;
 
+  // Function to scroll to the next item or image on the right.
   function scrollRight() {
     imgIndex++;
-    if (imgIndex >= 2) {
-      imgIndex = 2;
+    if (imgIndex >= 1) {
+      imgIndex = 1;
     }
   }
 
+  // Function to scroll to the next item or image on the left.
   function scrollLeft() {
     imgIndex--;
     if (imgIndex < 0) {
@@ -17,8 +21,9 @@
     }
   }
 
+  // Getting image by index, return empty string for out-of-range.
   function img(index) {
-    const imgArray = [product1, product2, product1, product2];
+    const imgArray = [product1, product2, product3, product4];
 
     if (index >= 0 && index < imgArray.length) {
       return imgArray[index];
