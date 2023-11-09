@@ -197,6 +197,7 @@ nav a {
 .product-container {
     overflow-x: scroll;
     overflow-y: hidden;
+    display: flex;
 }
  
 .whole-product {
@@ -243,9 +244,9 @@ nav a {
  
 /* Gallery styles */
 .gallery {
-    display: grid;
-    grid-template-columns: 50px 1fr 50px;
+    display: flex;
     overflow: hidden;
+    align-items: center;
 }
  
 .previous-button,
