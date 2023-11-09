@@ -10,6 +10,13 @@
       imgIndex = 2;
     }
   }
+
+  function scrollLeft() {
+    imgIndex--;
+    if (imgIndex < 0) {
+      imgIndex = 0;
+    }
+  }
 </script>
 
 <!-- This code represents a product section with a product category heading and a gallery of product cards. 
