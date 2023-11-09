@@ -1,27 +1,20 @@
+<script>
+  let product1 = "/img/catTeaser.png";
+  let product2 = "/img/catToy.png";
+  let imgIndex = 0;
+ 
+  function scrollRight() {
+    imgIndex++;
+    if (imgIndex >= 2) {
+      // Adjust this based on the number of videos
+      imgIndex = 2;
+    }
+  }
+</script>
+
 <!-- This code represents a product section with a product category heading and a gallery of product cards. 
   Each card includes an image, product details, and price. 
   Navigation buttons allow users to browse through the product gallery. -->
-
-<script>
-  const productContainer = [...document.querySelectorAll(".product-container")];
-  const nxtButton = [...document.querySelectorAll(".next-button")];
-  const preButton = [...document.querySelectorAll(".previous-button")];
-
-  productContainer.forEach((item, i) => {
-    let containerDimension =
-      item.getBoundingClientRect(); /* Get the position and size of the 'item' element on the web page. */
-    let containerWidth = containerDimension.width;
-
-    nxtButton[i].addEventListener("click", () => {
-      item.scrollLeft += containerWidth;
-    });
-
-    preButton[i].addEventListener("click", () => {
-      item.scrollLeft -= containerWidth;
-    });
-  });
-</script>
-
 <section class="product">
   <h2 class="product-category">Our Product</h2>
   <div class="gallery">
