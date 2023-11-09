@@ -37,8 +37,9 @@ For future implement of the website:
 - Add more animation to the webpage.
 - Create an additional webpage linked to the "Learn More" button, where users can find information about the cat adoption center.
 - - - -
-# Known Bug
+# Unknown Bug
 - Whenever the webpage's dimensions fall below 500 pixels, there is an issue with the background color in the header breaking.
+- The right arrow in the store page it doesn't go all the way to the end of the screen.
 - - - -
 # My Website
 - Header
